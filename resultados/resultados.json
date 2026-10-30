@@ -1,0 +1,47 @@
+{
+  "datos": {
+    "filas": 569,
+    "variables": 30,
+    "malignos": 212,
+    "benignos": 357,
+    "porcentaje_malignos": 37.26
+  },
+  "entrenamiento": 455,
+  "prueba": 114,
+  "modelo_base": {
+    "accuracy": 0.631578947368421,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "regresion_logistica": {
+    "accuracy": 0.9649122807017544,
+    "precision": 0.975,
+    "recall": 0.9285714285714286,
+    "f1": 0.9512195121951219
+  },
+  "validacion_cruzada_f1": {
+    "media": 0.9640480895915677,
+    "desviacion": 0.020700447685741707
+  },
+  "matriz_confusion": {
+    "VN": 71,
+    "FP": 1,
+    "FN": 3,
+    "VP": 39
+  },
+  "top_variables_maligno": {
+    "worst texture": 1.434,
+    "radius error": 1.233,
+    "worst symmetry": 1.061,
+    "mean concave points": 0.953,
+    "worst concavity": 0.911
+  },
+  "top_variables_benigno": {
+    "compactness error": -0.907,
+    "fractal dimension error": -0.594,
+    "mean compactness": -0.44,
+    "texture error": -0.408,
+    "symmetry error": -0.331
+  }
+}

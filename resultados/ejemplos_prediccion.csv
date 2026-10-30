@@ -1,0 +1,4 @@
+probabilidad_maligno,prediccion,real
+0.0004,benigno,benigno
+1.0,maligno,maligno
+0.0426,benigno,benigno
